@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #587fa6, #1a374a);
+
+    font-family: sans-serif;
+}
+
+#calculadora {
+    width: 340px;
+    height: 570px;
+    background-color: #000000e1;
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title {
+    color: #ffffffc8;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#resultado {
+    height: 120px;
+}
+
+.vsaida {
+    background-color: #2e6aa5;
+    text-align: right;
+    height: 60px;
+    width: 275px;
+    margin: 10px 20px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+
+.teclado {
+    height: 400px;
+}
+
+.botaoAux,
+.numero,
+.limpar,
+.division,
+.suma,
+.multiplicacion,
+.subtra,
+.igual {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.division {
+    font-size: 20px;
+    background-color: #70d6ff;
+}
+
+.suma {
+    font-size: 20px;
+    background-color: #ffd670;
+}
+
+.multiplicacion {
+    font-size: 20px;
+    background-color: #ff70a6;
+}
+
+.subtra {
+    font-size: 20px;
+    background-color: #ff9770;
+}
+
+.igual {
+    font-size: 20px;
+    background-color: #e9ff70;
+}
+
+.numero {
+    background-color: #eaedef;
+}
+
+.numero,
+.botaoAux,
+.limpar,
+.division,
+.suma,
+.multiplicacion,
+.igual,
+.subtracao {
+    cursor: pointer;
+
+}
+
+.botaoAux {
+    background-color: #5ee290;
+}
+
+.numero {
+    background-color: #ddeb90;
+}
+
+.limpar {
+    background-color: red;
+}
+
+.botaoAux:active,
+.numero:active,
+.limpar:active,
+.division:active,
+.souma:active,
+.multiplicacion:active,
+.subtra:active,
+.igual:active {
+    font-size: 13px;
+}
+
+.botaoAux:focus,
+.numero:focus,
+.vazio:focus,
+.limpar:focus,
+.division:focus,
+.soma:focus,
+.multiplicion:focus,
+.subtra:focus,
+.igual:focus {
+    outline: 0;
+}
